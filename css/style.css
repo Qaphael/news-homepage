@@ -20,9 +20,9 @@
 
 @font-face {
   font-family: "interregular";
-  src: url("/assets/fonts/font/inter-variablefont_slntwght-webfont.woff2")
+  src: url("../assets/fonts/font/inter-variablefont_slntwght-webfont.woff2")
       format("woff2"),
-    url("/assets/fonts/font/inter-variablefont_slntwght-webfont.woff")
+    url("../assets/fonts/font/inter-variablefont_slntwght-webfont.woff")
       format("woff");
   font-weight: normal;
   font-style: normal;
@@ -35,7 +35,7 @@
   margin: 0;
   padding: 0;
   text-decoration: none;
-  font-family: "interregular";
+  font-family: "interregular", san-serif;
 }
 
 #overlay {
